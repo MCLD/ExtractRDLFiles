@@ -12,7 +12,7 @@ will accept the file.
 
 ## How to use
 
-1. Edit the App.config file to fix the ConnectionString to point to the Report Server database.
+1. Edit the `ExtractRDLFiles.exe.config` file to fix the ConnectionString to point to the Report Server database.
 2. Run the program.
 
 The program should create a folder called "ExtractedReports" containing the same directory
