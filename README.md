@@ -1,6 +1,6 @@
 # ExtractReports
 
-Windows console application which can extract .RDL files from a ReportServer database.
+Windows console application to extract .RDL files from a ReportServer database.
 
 Microsoft Reporting services stores RDL files in the SQL Server database as `VARBINARY` data. This
 console application will go through all the reports in the database and output them to disk
