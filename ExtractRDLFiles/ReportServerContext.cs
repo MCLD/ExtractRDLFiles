@@ -1,4 +1,4 @@
-namespace ExtractReports {
+namespace ExtractRDLFiles {
     using System;
     using System.Data.Entity;
     using System.ComponentModel.DataAnnotations.Schema;

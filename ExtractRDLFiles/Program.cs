@@ -1,12 +1,11 @@
-﻿using System;
-using System.IO;
-using System.Linq;
-using System.Text;
-
-namespace ExtractReports {
+﻿namespace ExtractRDLFiles {
+    using System;
+    using System.IO;
+    using System.Linq;
+    using System.Text;
     class Program {
         private static readonly string pathChar = Path.DirectorySeparatorChar.ToString();
-        private static readonly string outputDirectory = "RecoveredReports";
+        private static readonly string outputDirectory = "ExtractedReports";
 
         static void Main(string[] args) {
             using(var context = new ReportServerContext()) {

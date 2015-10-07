@@ -7,8 +7,8 @@
     <ProjectGuid>{88AE581A-A031-45E9-9D6C-54EA6E66C555}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ExtractReports</RootNamespace>
-    <AssemblyName>ExtractReports</AssemblyName>
+    <RootNamespace>ExtractRDLFiles</RootNamespace>
+    <AssemblyName>ExtractRDLFiles</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

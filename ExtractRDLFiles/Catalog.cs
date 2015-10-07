@@ -1,17 +1,13 @@
-namespace ExtractReports
-{
+namespace ExtractRDLFiles {
     using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
-    using System.Data.Entity.Spatial;
 
     [Table("Catalog")]
-    public partial class Catalog
-    {
+    public partial class Catalog {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Catalog()
-        {
+        public Catalog() {
             Catalog1 = new HashSet<Catalog>();
             Catalog11 = new HashSet<Catalog>();
         }
